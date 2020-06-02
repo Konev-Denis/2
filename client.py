@@ -1,6 +1,5 @@
 import socket
 import datetime
-import time
 
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 s.sendto(b'TIME', ('127.0.0.1', 123))
